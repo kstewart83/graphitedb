@@ -1,0 +1,50 @@
+{
+  "name": "graphitedb",
+  "version": "0.0.5",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "@types/better-sqlite3": "^5.2.2",
+    "@types/jest": "^24.0.11",
+    "better-sqlite3": "^5.4.0",
+    "chai": "^4.2.0",
+    "columnify": "^1.5.4",
+    "intern": "^4.4.2",
+    "jest": "^24.7.1",
+    "jsedn": "^0.4.1",
+    "short-uuid": "^3.1.0",
+    "ts-jest": "^24.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^11.11.3",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/tests",
+      "<rootDir>/src"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
