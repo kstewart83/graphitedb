@@ -18,7 +18,7 @@
     "better-sqlite3": "^5.4.0",
     "chai": "^4.2.0",
     "columnify": "^1.5.4",
-    "intern": "^4.4.2",
+    "intern": "^4.10.1",
     "jest": "^24.7.1",
     "jsedn": "^0.4.1",
     "short-uuid": "^3.1.0",
